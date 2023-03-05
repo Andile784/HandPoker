@@ -1,4 +1,4 @@
-
+#Define a Card class to represent a playing card
 class Card:
     def __init__(self, rank, suit):
         self.rank = int(rank)
