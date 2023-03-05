@@ -46,7 +46,8 @@ class Card:
 
     def is_ten(self):
         return self.rank == 'T'
-
+    
+    # Convert rank to integer. Ace is 14, King is 13, Queen is 12, Jack is 11, and 10 is 10.
     def rank_to_int(self):
         if self.rank == 'A':
             return 14
