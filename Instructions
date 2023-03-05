@@ -1,0 +1,5 @@
+Instructions for running the code:
+
+The code is written in Python 3, and can be run on any system that has Python 3 installed.
+To run the program, simply run the main.py file using the Python interpreter.
+You can also run the tests by running the test.py file using the unittest framework in Python.
