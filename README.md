@@ -13,3 +13,5 @@ Evaluate the hand: We will evaluate the hand by comparing the cards against the 
 Handle errors: We will handle any errors gracefully, such as invalid input or unexpected behavior.
 
 To make the program extensible and maintainable, we will use modular design patterns and write unit tests to ensure that the program behaves as expected. We will also provide clear documentation and comments to explain the logic and reasoning behind our code
+
+By using classes, we have encapsulated the data and the logic into separate units, which makes the code easier to read, understand, and maintain. We can also easily extend the program by adding new methods or attributes to the classes. For example, we can add a eq method to the Card class to compare cards, or a lt method to sort cards by suit. We can also subclass the Hand class to create different types of poker hands, such as a Texas Hold'em hand or a Omaha hand, with their own rules and evaluations.
